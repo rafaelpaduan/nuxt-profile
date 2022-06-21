@@ -2,7 +2,7 @@
     <v-container>
         <div id="component-profile" class="d-flex flex-column justify-center align-center">
             <img 
-            src="https://scontent.fldb1-1.fna.fbcdn.net/v/t1.6435-9/174547508_3737544919682482_3411299680349001008_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFP8-qqTvE-NOZd3RymTgIoqPI9CTjBVk-o8j0JOMFWT0fE6wod_mAxyIZg68ev7_kN2YpPzIjWEX3LxJC1PisJ&_nc_ohc=mkSmQKM-LtoAX82ceoU&_nc_ht=scontent.fldb1-1.fna&oh=00_AT-fNMzo3gBk-I1r0hcJStc_Dcb0OnbBwfEu7ArPOQMZGg&oe=620E108D"
+            src="~/assets/img/profile.jpg"
             alt="Rafael Paduan" />
             <h1>{{ name }}</h1>
             <p v-html="description"></p>
@@ -46,7 +46,7 @@ export default {
     height: 100vh;
     img {
         max-height: 100px;
-        border-radius: 100px;
+        border-radius: 50px;
     }
     p {
         text-align: center;
